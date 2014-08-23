@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "GDGVIX 001 - Google URL Shortener",
+  "icons": { "128": "gdgvixurlshortener.png" },
+  "version": "1.0",
+  "description": "Exemplo de Chrome Extension para usar o servidor URL Shortener do Google para o GDGVIX 001",
+  "permissions": ["https://www.googleapis.com/urlshortener/v1/url"],
+  "browser_action": {
+    "default_title": "Shortenizar URL usando o Google",
+    "default_icon": "gdgvixurlshortener.png",
+    "default_popup": "popup.html"
+  }
+}

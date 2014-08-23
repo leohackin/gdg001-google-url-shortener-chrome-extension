@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Google URL Shortener</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+        font-size: 12px;
+        font-family: Helvetica;
+      }
+      #content {
+        padding: 20px;
+      }
+      #url_decodificada {
+        font-size: 16px;
+        display: none;
+      }
+      #url {
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <form>
+        URL <input type="text" name="url" id="url" />
+        <input type="button" value="googleshortenificar" id="btn_short" />
+      </form>
+      <div id="url_decodificada"></div>
+    </div>
+    <script src="lib/jquery-1.7.1.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
